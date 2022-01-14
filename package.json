@@ -1,0 +1,17 @@
+{
+  "name": "pixi.ts",
+  "version": "1.0.0",
+  "description": "pixi.js boilerplate with TS",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec \"parcel build \"src/main.ts\" && parcel index.html\""
+  },
+  "author": "qckpea",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "parcel": "^2.2.0"
+  }
+}
